@@ -1,5 +1,7 @@
 # Promotionia - Pioneering the Future of Advertising and Marketing
 
+![Promotionia Logo](/path/to/your/logo.png)
+
 ## Overview
 Promotionia is a dynamic and innovative advertising and marketing agency established in June 2023. Despite its recent inception, Promotionia has quickly made a name for itself in the competitive world of marketing by securing tenders from various companies and delivering exceptional advertising services through multiple channels. From social media platforms like Instagram, Facebook, and Twitter, to email marketing and traditional street holdings, Promotionia employs a diverse array of strategies to ensure that their clients' brands reach their target audiences effectively.
 
@@ -16,7 +18,6 @@ Promotionia is a dynamic and innovative advertising and marketing agency establi
 ### Internship Process Overview
 1. **First Round: Application and Resume Submission**
     - Interested students must fill out a [Google form](https://forms.gle/ktDiSuJ3H8aiuQ7M9), which will serve as their initial application and resume submission. Each application will be carefully reviewed, and students will be notified via email whether they have been shortlisted for the next round.
-    
     - **[Apply Now](https://forms.gle/ktDiSuJ3H8aiuQ7M9)**
 
 2. **Second Round: Training and Task Assignment**
@@ -37,7 +38,7 @@ Promotionia is a dynamic and innovative advertising and marketing agency establi
 - Stipend ranging from ₹7,000 to ₹12,000.
 - Certificate of Completion upon successful completion of the internship.
 
-### Benefits of Internship In Promotionia
+### Benefits of Internship at Promotionia
 - **Real-World Experience**: Interns will gain hands-on experience working on live projects for actual clients, allowing them to apply theoretical knowledge in practical scenarios.
 - **Skill Development**: Through training and task assignments, interns will develop essential skills in digital marketing, social media management, content creation, and more.
 - **Mentorship**: Interns will have the opportunity to learn from experienced professionals in the industry, receiving guidance and feedback to help them grow.
