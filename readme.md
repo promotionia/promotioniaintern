@@ -43,5 +43,4 @@ Stay connected with us through our social media channels:
 - [Facebook](https://www.facebook.com/promotionia)
 - [Instagram](https://www.instagram.com/promotionia/)
 - [YouTube](https://www.youtube.com/@promotionia)
-https://wa.me/9431878244
 © 2024 Promotionia. All rights reserved.
