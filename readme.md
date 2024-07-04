@@ -36,12 +36,13 @@ At Promotionia, we believe in nurturing talent through continuous learning and i
 If you're ready to shape the future of advertising and marketing, apply now to join Promotionia. Together, we'll redefine the landscape of marketing strategies.
 
 ## Contact Us
+
 Stay connected with us through our social media channels:
-- [What's App](https://wa.me/9431878244)
+- [WhatsApp](https://wa.me/9431878244)
 - [Twitter](https://www.x.com/promotionia)
 - [LinkedIn](https://www.linkedin.com/company/promotionia.com/)
 - [Facebook](https://www.facebook.com/promotionia)
 - [Instagram](https://www.instagram.com/promotionia/)
 - [YouTube](https://www.youtube.com/@promotionia)
-  
+
 © 2024 Promotionia. All rights reserved.
