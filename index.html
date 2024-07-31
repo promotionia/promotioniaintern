@@ -2,21 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Promotionia - Pioneering the future of advertising and marketing. Join our internship program for hands-on experience and career opportunities in marketing.">
-    <meta name="keywords"
-        content="Promotionia, advertising, marketing, internship, social media marketing, digital marketing, email marketing, career opportunities, marketing agency, influencer marketing, content creation, SEO, branding, media management, online marketing, marketing internships, digital advertising, marketing careers, advertising internships, remote internships, marketing experience, promotional campaigns, marketing jobs, marketing training, marketing projects, marketing mentorship, networking opportunities, marketing skills, hands-on marketing experience, college internships, student internships, marketing development, future marketing leaders, online branding">
-    <meta name="author" content="Promotionia">
-    <link rel="icon" type="image/png" href="logo.png">
-    <meta name="twitter:site" content="@Promotionia">
-    <meta name="twitter:description"
-        content="Promotionia - Pioneering the future of advertising and marketing. Join our internship program for hands-on experience and career opportunities in marketing.">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Promotionia - Pioneering the future of advertising and marketing. Join our internship program for hands-on experience and career opportunities in marketing." />
+  <meta name="keywords"
+    content="Promotionia, advertising, marketing, internship, social media marketing, digital marketing, email marketing, career opportunities, marketing agency, influencer marketing, content creation, SEO, branding, media management, online marketing, marketing internships, digital advertising, marketing careers, advertising internships, remote internships, marketing experience, promotional campaigns, marketing jobs, marketing training, marketing projects, marketing mentorship, networking opportunities, marketing skills, hands-on marketing experience, college internships, student internships, marketing development, future marketing leaders, online branding" />
+  <meta name="author" content="Promotionia" />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <meta name="twitter:site" content="@Promotionia" />
+  <meta name="twitter:description"
+    content="Promotionia - Pioneering the future of advertising and marketing. Join our internship program for hands-on experience and career opportunities in marketing." />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
-    <title>Promotionia - Pioneering the Future of Advertising and Marketing</title>
+  <title>
+    Promotionia - Pioneering the Future of Advertising and Marketing
+  </title>
 </head>
 <script type="application/ld+json">
     {
@@ -72,7 +76,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": "120"
+        "reviewCount": "12054"
       },
       "review": {
         "@type": "Review",
@@ -88,7 +92,7 @@
         "reviewBody": "Promotionia provided an excellent internship experience, offering hands-on projects and valuable industry insights."
       }
     }
-    </script>
+  </script>
 
 <script type="application/ld+json">
     {
@@ -102,472 +106,679 @@
         "query-input": "required name=search_term_string"
       }
     }
-    </script>
-
+  </script>
 
 <style>
-    body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(135deg, #f4f4f4 0%, #e8e8e8 100%);
-        color: #333;
-        line-height: 1.6;
-        overflow-x: hidden;
-        font-size: 22px;
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4f4f4 0%, #e8e8e8 100%);
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+    font-size: 22px;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+  }
+
+  .logo {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: #222;
+  }
+
+  p {
+    color: #555;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+
+  .social-media {
+    margin-bottom: 10px;
+  }
+
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+
+  .social-media a:hover {
+    color: #8f7cec;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .footer-text a {
+    color: #8f7cec;
+    text-decoration: none;
+  }
+
+  .footer-text a:hover {
+    text-decoration: underline;
+  }
+
+  .banner {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .banner-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
+  }
+
+  .banner:hover .banner-img {
+    transform: scale(1.1);
+    filter: brightness(95%);
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  .banner-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .banner-text p {
+    font-size: 18px;
+  }
+
+  #apply-now {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    border: 1px solid #8f7cec;
+    display: inline-block;
+    margin: 20px auto;
+    background-color: #8f7cec;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8f7cec, 0 0 25px #8f7cec, 0 0 50px #8f7cec,
+      0 0 100px #8f7cec;
+    animation: blink 3.3s infinite;
+  }
+
+  #apply-now:hover {
+    background: #8f7cec;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8f7cec, 0 0 25px #8f7cec, 0 0 50px #8f7cec,
+      0 0 100px #8f7cec;
+    cursor: pointer;
+  }
+
+  @keyframes blink {
+    0% {
+      background-color: red;
     }
 
+    14% {
+      background-color: orange;
+    }
+
+    28% {
+      background-color: yellow;
+    }
+
+    42% {
+      background-color: green;
+    }
+
+    56% {
+      background-color: blue;
+    }
+
+    70% {
+      background-color: indigo;
+    }
+
+    84% {
+      background-color: violet;
+    }
+
+    100% {
+      background-color: red;
+    }
+  }
+
+  /* Additional CSS for responsiveness */
+
+  /* Ensure text is scalable on smaller screens */
+  body {
+    font-size: 18px;
+  }
+
+  /* Adjust the header padding and font size for smaller screens */
+  @media (max-width: 768px) {
     header {
-        text-align: center;
-        padding: 20px;
-        background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        position: relative;
-        z-index: 2;
+      padding: 15px;
     }
 
     .logo {
-        width: 150px;
-        margin-bottom: 10px;
-        transition: transform 0.3s;
-    }
-
-    .logo:hover {
-        transform: scale(1.1);
-    }
-
-    main {
-        padding: 40px 20px;
-        max-width: 1200px;
-        margin: 20px auto;
-        background: #fff;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-        border-radius: 10px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        color: #222;
-    }
-
-    p {
-        color: #555;
-    }
-
-    ul {
-        padding-left: 20px;
-    }
-
-    footer {
-        text-align: center;
-        padding: 20px;
-        background: #333;
-        color: #fff;
-        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-        margin-top: 20px;
-    }
-
-    .social-media {
-        margin-bottom: 10px;
-    }
-
-    .social-media a {
-        color: #fff;
-        text-decoration: none;
-        margin: 0 10px;
-        font-size: 18px;
-        transition: color 0.3s;
-    }
-
-    .social-media a:hover {
-        color: #8f7cec;
-    }
-
-    .footer-text {
-        font-size: 14px;
-    }
-
-    .footer-text a {
-        color: #8f7cec;
-        text-decoration: none;
-    }
-
-    .footer-text a:hover {
-        text-decoration: underline;
-    }
-
-    .banner {
-        position: relative;
-        text-align: center;
-        margin: 20px 0;
-        overflow: hidden;
-        border-radius: 10px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    }
-
-    .banner-img {
-        width: 100%;
-        height: auto;
-        max-height: 400px;
-        object-fit: cover;
-        filter: brightness(50%);
-        transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
-    }
-
-    .banner:hover .banner-img {
-        transform: scale(1.1);
-        filter: brightness(95%);
-    }
-
-    .banner-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        z-index: 1;
+      width: 120px;
     }
 
     .banner-text h1 {
-        font-size: 36px;
-        margin-bottom: 10px;
+      font-size: 28px;
     }
 
     .banner-text p {
-        font-size: 18px;
+      font-size: 16px;
     }
 
     #apply-now {
-        padding: 10px 20px;
-        color: #fff;
-        font-size: 16px;
-        text-decoration: none;
-        text-transform: uppercase;
-        overflow: hidden;
-        transition: .5s;
-        letter-spacing: 4px;
-        border: 1px solid #8f7cec;
-        display: inline-block;
-        margin: 20px auto;
-        background-color: #8f7cec;
-        border-radius: 5px;
-        box-shadow: 0 0 5px #8f7cec, 0 0 25px #8f7cec, 0 0 50px #8f7cec, 0 0 100px #8f7cec;
-        animation: blink 2.3s infinite;
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+
+  /* Adjust main padding and reduce box shadow for better readability on smaller screens */
+  @media (max-width: 576px) {
+    main {
+      padding: 20px 10px;
+      margin: 10px auto;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
 
-    #apply-now:hover {
-        background: #8f7cec;
-        color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 5px #8f7cec, 0 0 25px #8f7cec, 0 0 50px #8f7cec, 0 0 100px #8f7cec;
-        cursor: pointer;
+    .banner-text h1 {
+      font-size: 24px;
     }
 
-    @keyframes blink {
-        0% {
-            background-color: red;
-        }
-
-        14% {
-            background-color: orange;
-        }
-
-        28% {
-            background-color: yellow;
-        }
-
-        42% {
-            background-color: green;
-        }
-
-        56% {
-            background-color: blue;
-        }
-
-        70% {
-            background-color: indigo;
-        }
-
-        84% {
-            background-color: violet;
-        }
-
-        100% {
-            background-color: red;
-        }
+    .banner-text p {
+      font-size: 14px;
     }
 
-    /* Additional CSS for responsiveness */
+    #apply-now {
+      font-size: 12px;
+      padding: 6px 12px;
+      letter-spacing: 2px;
+    }
+  }
 
-    /* Ensure text is scalable on smaller screens */
+  /* Further reduce font size and padding for very small screens */
+  @media (max-width: 400px) {
     body {
-        font-size: 18px;
+      font-size: 16px;
     }
 
-    /* Adjust the header padding and font size for smaller screens */
-    @media (max-width: 768px) {
-        header {
-            padding: 15px;
-        }
-
-        .logo {
-            width: 120px;
-        }
-
-        .banner-text h1 {
-            font-size: 28px;
-        }
-
-        .banner-text p {
-            font-size: 16px;
-        }
-
-        #apply-now {
-            font-size: 14px;
-            padding: 8px 16px;
-        }
+    .banner-text h1 {
+      font-size: 20px;
     }
 
-    /* Adjust main padding and reduce box shadow for better readability on smaller screens */
-    @media (max-width: 576px) {
-        main {
-            padding: 20px 10px;
-            margin: 10px auto;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .banner-text h1 {
-            font-size: 24px;
-        }
-
-        .banner-text p {
-            font-size: 14px;
-        }
-
-        #apply-now {
-            font-size: 12px;
-            padding: 6px 12px;
-            letter-spacing: 2px;
-        }
+    .banner-text p {
+      font-size: 12px;
     }
 
-    /* Further reduce font size and padding for very small screens */
-    @media (max-width: 400px) {
-        body {
-            font-size: 16px;
-        }
-
-        .banner-text h1 {
-            font-size: 20px;
-        }
-
-        .banner-text p {
-            font-size: 12px;
-        }
-
-        #apply-now {
-            font-size: 10px;
-            padding: 5px 10px;
-            letter-spacing: 1px;
-        }
+    #apply-now {
+      font-size: 10px;
+      padding: 5px 10px;
+      letter-spacing: 1px;
     }
+  }
 
-    /* Make sure images in banner are responsive */
-    .banner-img {
-        width: 100%;
-        height: auto;
-        max-height: 300px;
-    }
+  /* Make sure images in banner are responsive */
+  .banner-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+  }
 </style>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const logo = document.querySelector('.logo');
-        const applyButton = document.getElementById('apply-now');
+  document.addEventListener("DOMContentLoaded", () => {
+    const applyButton = document.getElementById("apply-now");
 
-        // Rotate logo on hover
-        logo.addEventListener('mouseover', () => {
-            logo.style.transform = 'rotate(360deg)';
-            logo.style.transition = 'transform 1s';
-        });
 
-        logo.addEventListener('mouseout', () => {
-            logo.style.transform = 'rotate(0deg)';
-        });
 
-        // Animate apply button text
-        applyButton.addEventListener('mouseover', () => {
-            applyButton.textContent = 'Contribute Promotionia Now!';
-        });
-
-        applyButton.addEventListener('mouseout', () => {
-            applyButton.textContent = 'Apply For Contribute Now';
-        });
+    // Animate apply button text
+    applyButton.addEventListener("mouseover", () => {
+      applyButton.textContent = "Contribute Promotionia Now!";
     });
 
+    applyButton.addEventListener("mouseout", () => {
+      applyButton.textContent = "Apply For Contribute Now";
+    });
+  });
 </script>
 
 <script>
-    let canvas;
+  let canvas;
 
-    function setup() {
-        canvas = createCanvas(windowWidth, windowHeight);
-        canvas.style('position', 'fixed');
-        canvas.style('top', '0');
-        canvas.style('left', '0');
-        canvas.style('z-index', '-1');
-        noLoop();
-    }
+  function setup() {
+    canvas = createCanvas(windowWidth, windowHeight);
+    canvas.style("position", "fixed");
+    canvas.style("top", "0");
+    canvas.style("left", "0");
+    canvas.style("z-index", "-1");
+    noLoop();
+  }
 
-    function draw() {
-        background(240);
-        for (let i = 0; i < 100; i++) {
-            fill(random(100, 255), random(100, 255), random(100, 255), 150);
-            noStroke();
-            ellipse(random(width), random(height), random(10, 50));
-        }
+  function draw() {
+    background(240);
+    for (let i = 0; i < 100; i++) {
+      fill(random(100, 255), random(100, 255), random(100, 255), 150);
+      noStroke();
+      ellipse(random(width), random(height), random(10, 50));
     }
+  }
 
-    function windowResized() {
-        resizeCanvas(windowWidth, windowHeight);
-        draw();
-    }
+  function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+    draw();
+  }
 </script>
 
 <body>
-    <header>
-        <img src="logon.png" alt="Promotionia Logo" class="logo">
-        <h1>Promotionia: Pioneering the Future of Advertising and Marketing <br>
-            "Be Heard, Be Seen, Be Promoted With Promotionia"
-        </h1>
-        <p>Promotionia is not just another PR agency; it is a dynamic and innovative advertising and marketing
-            powerhouse designed to redefine how businesses and individuals interact with their audiences. Founded in
-            June 2023 by visionary Raj Kamal and co-founded by creative genius Gaurav Kumar, Promotionia is at the
-            forefront of the marketing revolution. Although in its early stages, Promotionia is poised to make a
-            significant impact in the industry.</p>
-    </header>
+  <header>
+    <img src="logon.png" alt="Promotionia Logo" class="logo" />
+    <h1>
+      Promotionia: Pioneering the Future of Advertising and Marketing <br />
+      "Be Heard, Be Seen, Be Promoted With Promotionia"
+    </h1>
+    <p>
+      Promotionia is not just another PR agency; it is a dynamic and
+      innovative advertising and marketing powerhouse designed to redefine how
+      businesses and individuals interact with their audiences. Founded in
+      June 2023 by visionary Raj Kamal and co-founded by creative genius
+      Gaurav Kumar, Promotionia is at the forefront of the marketing
+      revolution. Although in its early stages, Promotionia is poised to make
+      a significant impact in the industry.
+    </p>
+  </header>
 
-    <section class="banner">
-        <div class="banner-text">
-            <h1>Welcome to Promotionia</h1>
-            <p>Your premier advertising and marketing agency
+  <section class="banner">
 
-                <br>
-                Be Heard, Be Seen, Be Promoted With Promotionia
-            </p>
+    <img src="banner.png" alt="Promotionia Banner" class="banner-img" />
+  </section>
+
+  <main>
+    <h2>Join Promotionia: Shape the Future of Marketing</h2>
+    <p>
+      As Promotionia continues to grow and expand its operations, we are on
+      the lookout for passionate and talented individuals to join our team.
+      Whether you are a seasoned professional or a fresh graduate, Promotionia
+      offers a unique opportunity to be part of an innovative and dynamic
+      environment. By joining us now, you have the chance to grow with the
+      company, gain invaluable experience, and potentially become a key
+      stakeholder in our success.
+    </p>
+
+    <h2>Why Contribute Promotionia?</h2>
+    <a id="apply-now" href="https://forms.gle/P2N57KBUT8agcGre9" target="_blank">APPLY FOR CONTRIBUTE NOW</a>
+    <h3>Future Opportunities and Stakeholder Potential</h3>
+    <p>
+      Joining Promotionia now means being part of the foundational team. While
+      we cannot offer a salary immediately, those who contribute significantly
+      from the beginning will have the opportunity to climb to higher
+      positions and potentially become stakeholders. This is more than just a
+      job; it’s a chance to be a part of something monumental from the ground
+      up.
+    </p>
+
+    <h3>Recognition and Big Positions</h3>
+    <p>
+      Promotionia values innovation and creativity. Those who bring forth
+      impactful ideas and suggestions for our growth will not go unnoticed. We
+      are committed to recognizing talent and providing substantial positions
+      to those who help shape the future of our company.
+    </p>
+
+    <h3>Learning and Skill Development</h3>
+    <p>
+      In the fast-paced world of startups, learning is continuous and
+      expansive. At Promotionia, you will gain hands-on experience in various
+      domains such as:
+    </p>
+    <ul>
+      <li>
+        <strong>Content Creation:</strong> Master the art of creating
+        compelling content that captures attention.
+      </li>
+      <li>
+        <strong>Marketing Strategy:</strong> Learn to devise and implement
+        strategies that drive engagement and growth.
+      </li>
+      <li>
+        <strong>Mass Psychology:</strong> Understand the psychological
+        principles that influence consumer behavior and apply them effectively
+        in marketing campaigns.
+      </li>
+    </ul>
+
+    <h3>Certification and Professional Growth</h3>
+    <p>
+      We understand the importance of credentials in today’s job market.
+      Here’s what you’ll receive:
+    </p>
+    <ul>
+      <li>
+        <strong>Joining Certificate:</strong> To mark the beginning of your
+        journey with Promotionia.
+      </li>
+      <li>
+        <strong>Training Certificate:</strong> After three months, recognizing
+        your skill acquisition and development.
+      </li>
+      <li>
+        <strong>Contribution Certificate:</strong> To highlight your valuable
+        contributions to our projects.
+      </li>
+    </ul>
+
+    <h2>About Promotionia</h2>
+    <h3>Strategic Advertising Contracts</h3>
+    <p>
+      We partner with businesses across various sectors to manage their
+      advertising needs. From product and service promotion to creating a
+      strong online presence, we handle it all. We also work with celebrities
+      and politicians, ensuring their visibility and engagement on social
+      media platforms.
+    </p>
+
+    <h3>Loyal and Silent Workforce</h3>
+    <p>
+      Our team comprises dedicated and loyal employees who work tirelessly
+      behind the scenes to achieve our clients’ goals. The success of
+      Promotionia is built on the hard work and commitment of these unsung
+      heroes.
+    </p>
+
+    <h2>Services Provided by Promotionia</h2>
+    <h3>Twitter Management</h3>
+    <p>
+      We specialize in making incidents and topics trend on Twitter, ensuring
+      maximum visibility. We also boost likes and retweets, enhancing the
+      engagement of specific content.
+    </p>
+
+    <h3>Instagram and Facebook</h3>
+    <p>
+      Leveraging these platforms, we create and promote content that resonates
+      with the target audience. We foster strong, engaged communities around
+      our clients' brands.
+    </p>
+
+    <h3>Email Marketing</h3>
+    <p>
+      We design and execute targeted email campaigns to reach specific
+      audience segments effectively. Our team monitors campaign performance,
+      making data-driven adjustments to optimize results.
+    </p>
+
+    <h3>Traditional Advertising</h3>
+    <p>
+      We employ traditional advertising methods like street holdings to
+      capture the attention of local audiences. Our strategies combine
+      traditional and digital methods for maximum impact.
+    </p>
+
+    <h2>Psychological and Philosophical Edge</h2>
+    <h3>Embrace the Power of Potential</h3>
+    <p>
+      At Promotionia, we believe in the boundless potential within each
+      individual. By joining our team, you’re not just taking a job; you’re
+      embarking on a journey of self-discovery and growth. We operate on the
+      principle of "self-actualization," helping you realize your fullest
+      potential through meaningful work and continuous learning.
+    </p>
+
+    <h3>The Philosophy of Growth</h3>
+    <p>
+      Our philosophy is rooted in the concept of "Kaizen," a Japanese term
+      meaning continuous improvement. Every day at Promotionia is an
+      opportunity to learn something new, improve existing skills, and
+      contribute to a larger purpose. This philosophy drives our commitment to
+      nurturing talent and fostering a culture of innovation.
+    </p>
+
+    <h3>Community and Belonging</h3>
+    <p>
+      Human beings have an intrinsic need to belong and feel connected. At
+      Promotionia, we create a supportive community where every voice is
+      heard, and every contribution is valued. By joining us, you become part
+      of a family that works together towards common goals, celebrating each
+      milestone along the way.
+    </p>
+
+    <h2>Apply Now!</h2>
+    <p>
+      If you’re ready to take the next step in your career and be part of an
+      innovative and dynamic team, click
+      <a href="https://forms.gle/P2N57KBUT8agcGre9" target="_blank">APPLY NOW</a>
+      to join Promotionia. Together, we will redefine the landscape of
+      advertising and marketing.
+    </p>
+  </main>
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      min-width: auto;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      flex: 1 1 300px;
+      max-width: 300px;
+      margin: 10px;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card .image img {
+      width: 150px;
+      height: 200px;
+      border-radius: 20%;
+      object-fit: cover;
+      margin-top: 20px;
+      border: 3px solid #fff;
+    }
+
+    .card .name-profession {
+      margin: 15px 0;
+      color: #333;
+    }
+
+    .card .name-profession .name {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .card .name-profession .profession {
+      font-size: 15px;
+      font-weight: 500;
+      color: #777;
+    }
+
+    .card .name-profession .profession b {
+      color: #333;
+    }
+  </style>
+
+  <div class="container">
+    <div class="flex-container">
+      <div class="card">
+        <div class="image">
+          <img src="founder.jpg" alt="Founder">
         </div>
-        <img src="banner.png" alt="Promotionia Banner" class="banner-img">
-    </section>
-
-    <main>
-        <h2>Join Promotionia: Shape the Future of Marketing</h2>
-        <p>As Promotionia continues to grow and expand its operations, we are on the lookout for passionate and talented
-            individuals to join our team. Whether you are a seasoned professional or a fresh graduate, Promotionia
-            offers a unique opportunity to be part of an innovative and dynamic environment. By joining us now, you have
-            the chance to grow with the company, gain invaluable experience, and potentially become a key stakeholder in
-            our success.</p>
-
-        <h2>Why Contribute Promotionia?</h2>
-        <a id="apply-now" href="https://forms.gle/P2N57KBUT8agcGre9" target="_blank">APPLY FOR CONTRIBUTE NOW</a>
-        <h3>Future Opportunities and Stakeholder Potential</h3>
-        <p>Joining Promotionia now means being part of the foundational team. While we cannot offer a salary
-            immediately, those who contribute significantly from the beginning will have the opportunity to climb to
-            higher positions and potentially become stakeholders. This is more than just a job; it’s a chance to be a
-            part of something monumental from the ground up.</p>
-
-        <h3>Recognition and Big Positions</h3>
-        <p>Promotionia values innovation and creativity. Those who bring forth impactful ideas and suggestions for our
-            growth will not go unnoticed. We are committed to recognizing talent and providing substantial positions to
-            those who help shape the future of our company.</p>
-
-        <h3>Learning and Skill Development</h3>
-        <p>In the fast-paced world of startups, learning is continuous and expansive. At Promotionia, you will gain
-            hands-on experience in various domains such as:</p>
-        <ul>
-            <li><strong>Content Creation:</strong> Master the art of creating compelling content that captures
-                attention.</li>
-            <li><strong>Marketing Strategy:</strong> Learn to devise and implement strategies that drive engagement and
-                growth.</li>
-            <li><strong>Mass Psychology:</strong> Understand the psychological principles that influence consumer
-                behavior and apply them effectively in marketing campaigns.</li>
-
-        </ul>
-
-        <h3>Certification and Professional Growth</h3>
-        <p>We understand the importance of credentials in today’s job market. Here’s what you’ll receive:</p>
-        <ul>
-            <li><strong>Joining Certificate:</strong> To mark the beginning of your journey with Promotionia.</li>
-            <li><strong>Training Certificate:</strong> After three months, recognizing your skill acquisition and
-                development.</li>
-            <li><strong>Contribution Certificate:</strong> To highlight your valuable contributions to our projects.
-            </li>
-        </ul>
-
-        <h2>About Promotionia</h2>
-        <h3>Strategic Advertising Contracts</h3>
-        <p>We partner with businesses across various sectors to manage their advertising needs. From product and service
-            promotion to creating a strong online presence, we handle it all. We also work with celebrities and
-            politicians, ensuring their visibility and engagement on social media platforms.</p>
-
-        <h3>Loyal and Silent Workforce</h3>
-        <p>Our team comprises dedicated and loyal employees who work tirelessly behind the scenes to achieve our
-            clients’ goals. The success of Promotionia is built on the hard work and commitment of these unsung heroes.
-        </p>
-
-        <h2>Services Provided by Promotionia</h2>
-        <h3>Twitter Management</h3>
-        <p>We specialize in making incidents and topics trend on Twitter, ensuring maximum visibility. We also boost
-            likes and retweets, enhancing the engagement of specific content.</p>
-
-        <h3>Instagram and Facebook</h3>
-        <p>Leveraging these platforms, we create and promote content that resonates with the target audience. We foster
-            strong, engaged communities around our clients' brands.</p>
-
-        <h3>Email Marketing</h3>
-        <p>We design and execute targeted email campaigns to reach specific audience segments effectively. Our team
-            monitors campaign performance, making data-driven adjustments to optimize results.</p>
-
-        <h3>Traditional Advertising</h3>
-        <p>We employ traditional advertising methods like street holdings to capture the attention of local audiences.
-            Our strategies combine traditional and digital methods for maximum impact.</p>
-
-        <h2>Psychological and Philosophical Edge</h2>
-        <h3>Embrace the Power of Potential</h3>
-        <p>At Promotionia, we believe in the boundless potential within each individual. By joining our team, you’re not
-            just taking a job; you’re embarking on a journey of self-discovery and growth. We operate on the principle
-            of "self-actualization," helping you realize your fullest potential through meaningful work and continuous
-            learning.</p>
-
-        <h3>The Philosophy of Growth</h3>
-        <p>Our philosophy is rooted in the concept of "Kaizen," a Japanese term meaning continuous improvement. Every
-            day at Promotionia is an opportunity to learn something new, improve existing skills, and contribute to a
-            larger purpose. This philosophy drives our commitment to nurturing talent and fostering a culture of
-            innovation.</p>
-
-        <h3>Community and Belonging</h3>
-        <p>Human beings have an intrinsic need to belong and feel connected. At Promotionia, we create a supportive
-            community where every voice is heard, and every contribution is valued. By joining us, you become part of a
-            family that works together towards common goals, celebrating each milestone along the way.</p>
-
-        <h2>Apply Now!</h2>
-        <p>If you’re ready to take the next step in your career and be part of an innovative and dynamic team, click <a
-                href="https://forms.gle/P2N57KBUT8agcGre9" target="_blank">APPLY NOW</a> to join
-            Promotionia. Together, we will redefine the landscape of advertising and marketing.</p>
-    </main>
-
-    <footer>
-        <div class="social-media">
-            <a href="https://wa.me/9431878244" target="_blank">What's App</a>
-            <a href="https://www.x.com/promotionia" target="_blank">Twitter</a>
-            <a href="https://www.linkedin.com/company/promotionia.com/" target="_blank">LinkedIn</a>
-            <a href="https://www.facebook.com/promotionia" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/promotionia/" target="_blank">Instagram</a>
-            <a href="https://www.youtube.com/@promotionia" target="_blank">YouTube</a>
+        <div class="name-profession">
+          <span class="name">RAJ KAMAL</span><br>
+          <span class="profession"> ~ <b>FOUNDER</b></span>
         </div>
-        <p class="footer-text">&copy; 2024 Promotionia. All rights reserved. </p>
-    </footer>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="coFounder.jpg" alt="Co-Founder">
+        </div>
+        <div class="name-profession">
+          <span class="name">GAURAV KUMAR</span><br>
+          <span class="profession"> ~ <b>CO-FOUNDER</b></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="card">
+        <div class="image">
+          <img src="shrijal.jpg" alt="Manager 1">
+        </div>
+        <div class="name-profession">
+          <span class="name">RAI SHRIJAL ANJINI</span><br>
+          <span class="profession"><b>MEETING AND TRAINING MANAGEMENT</b></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="akansha.jpg" alt="Manager 2">
+        </div>
+        <div class="name-profession">
+          <span class="name">AKANSHA CHANDRA</span><br>
+          <span class="profession"><b>MEETING AND TRAINING MANAGEMENT</b></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="nilesh.png" alt="Manager 3">
+        </div>
+        <div class="name-profession">
+          <span class="name">NEELESH ATHIYA</span><br>
+          <span class="profession"><b>SOCIAL MEDIA MANAGEMENT</b></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="prem.jpg" alt="Manager 4">
+        </div>
+        <div class="name-profession">
+          <span class="name">PREM SAGAR</span><br>
+          <span class="profession"><b>DATA MANAGEMENT</b></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="raju.jpg" alt="Manager 5">
+        </div>
+        <div class="name-profession">
+          <span class="name">RAJU KUMAR</span><br>
+          <span class="profession"><b>DATA MANAGEMENT</b></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="vikash.jpg" alt="Manager 6">
+        </div>
+        <div class="name-profession">
+          <span class="name">VIKASH MEENA</span><br>
+          <span class="profession"><b>CERTIFICATE MANAGEMENT</b></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="social-media">
+      <a href="https://wa.me/9431878244" target="_blank">What's App</a>
+      <a href="https://www.x.com/promotionia" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com/company/promotionia.com/" target="_blank">LinkedIn</a>
+      <a href="https://www.facebook.com/promotionia" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/promotionia/" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/@promotionia" target="_blank">YouTube</a>
+    </div>
+    <p class="footer-text">&copy; 2024 Promotionia. All rights reserved.</p>
+  </footer>
+
+
 </body>
 
 </html>
