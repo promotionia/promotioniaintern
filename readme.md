@@ -33,8 +33,8 @@ Promotionia is a dynamic and innovative marketing agency founded in June 2023. W
 
 ## Founders
 
-- **Raj Kamal**: Founder. Graduated from IIT BHU.
-- **Gaurav Kumar**: Co-Founder. Graduated from Parul University.
+- **Raj Kamal**: Founder. Under Graduate from IIT BHU.
+- **Gaurav Kumar**: Co-Founder. Under Graduate from Parul University.
 
 ## Contact
 
