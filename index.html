@@ -7,7 +7,7 @@
   <meta name="description"
     content="Promote your products and services with Promotionia, a leading marketing agency specializing in digital marketing, social media campaigns, influencer partnerships, and content creation. Elevate your brand and drive growth with our innovative strategies." />
   <meta name="keywords"
-    content="Promotionia, promotionia company, founder of promotionia, Co-Founder of promotionia, top marketing company promotionia,advertising, marketing, internship, social media marketing, digital marketing, email marketing, career opportunities, marketing agency, influencer marketing, content creation, SEO, branding, media management, online marketing, marketing internships, digital advertising, marketing careers, advertising internships, remote internships, marketing experience, promotional campaigns, marketing jobs, marketing training, marketing projects, marketing mentorship, networking opportunities, marketing skills, hands-on marketing experience, college internships, student internships, marketing development, future marketing leaders, online branding" />
+    content="Promotionia, promotionia company, founder of promotionia raj kamal, Co-Founder of promotionia gauravkumar, top marketing company promotionia,advertising, marketing, internship, social media marketing, digital marketing, email marketing, career opportunities, marketing agency, influencer marketing, content creation, SEO, branding, media management, online marketing, marketing internships, digital advertising, marketing careers, advertising internships, remote internships, marketing experience, promotional campaigns, marketing jobs, marketing training, marketing projects, marketing mentorship, networking opportunities, marketing skills, hands-on marketing experience, college internships, student internships, marketing development, future marketing leaders, online branding" />
   <meta name="author" content="Promotionia" />
 
   <link rel="icon" type="image/png" href="logo.png" />
@@ -29,8 +29,8 @@
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "Promotionia",
-        "url": "https://promotionia.github.io/promotioniaintern/",
-        "logo": "https://promotionia.github.io/promotioniaintern/logon.png",
+        "url": "https://promotionia.in/",
+        "logo": "https://promotionia.in/logon.png",
         "description": "Promotionia is your go-to marketing agency for promoting products and services. We specialize in digital marketing, social media campaigns, influencer marketing, and content creation to elevate your brand and drive growth.",
         "sameAs": [
           "https://x.com/promotionia",
@@ -72,7 +72,7 @@
         ],
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://promotionia.github.io/promotioniaintern/?s={search_term_string}",
+          "target": "https://promotionia.in/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         },
         "aggregateRating": {
@@ -101,10 +101,10 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Promotionia",
-        "url": "https://promotionia.github.io/promotioniaintern/",
+        "url": "https://promotionia.in/",
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://promotionia.github.io/promotioniaintern/?s={search_term_string}",
+          "target": "https://promotionia.in/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       }
@@ -367,9 +367,6 @@
   document.addEventListener("DOMContentLoaded", () => {
     const applyButton = document.getElementById("apply-now");
 
-
-
-    // Animate apply button text
     applyButton.addEventListener("mouseover", () => {
       applyButton.textContent = "Contribute Promotionia Now!";
     });
@@ -378,6 +375,7 @@
       applyButton.textContent = "Apply For Contribute Now";
     });
   });
+
 </script>
 
 <script>
@@ -443,7 +441,8 @@
     </p>
 
     <h2>Why Contribute Promotionia?</h2>
-    <a id="apply-now" href="https://forms.gle/P2N57KBUT8agcGre9" target="_blank">APPLY FOR CONTRIBUTE NOW</a>
+    <a id="apply-now" href="https://forms.gle/P2N57KBUT8agcGre9" target="_blank" role="button"
+      aria-label="Apply for Contribute Now">APPLY FOR CONTRIBUTE NOW</a>
     <h3>Future Opportunities and Stakeholder Potential</h3>
     <p>
       Joining Promotionia now means being part of the foundational team. While
@@ -558,7 +557,6 @@
       traditional and digital methods for maximum impact.
     </p>
 
-    <h2>Psychological and Philosophical Edge</h2>
     <h3>Embrace the Power of Potential</h3>
     <p>
       At Promotionia, we believe in the boundless potential within each
@@ -597,21 +595,22 @@
   </main>
 
 
+  <!-- PROFILE SECTION START -->
   <style>
-    .container {
-      max-width: 70%;
+    .team-container {
+      max-width: 80%;
       margin: 50px auto;
       padding: 20px;
     }
 
-    .flex-container {
+    .team-section {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
     }
 
-    .card {
+    .team-card {
       background: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 15px;
@@ -623,12 +622,12 @@
       margin: 10px;
     }
 
-    .card:hover {
+    .team-card:hover {
       transform: translateY(-10px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
-    .card .image img {
+    .team-image img {
       width: 150px;
       height: 200px;
       border-radius: 20%;
@@ -637,149 +636,169 @@
       border: 3px solid #fff;
     }
 
-    .card .name-profession {
+    .team-info {
       margin: 15px 0;
       color: #333;
     }
 
-    .card .name-profession .name {
-      font-size: 20px;
-      font-weight: 600;
+    .team-name {
+      font-size: 22px;
+      font-weight: 700;
     }
 
-    .card .name-profession .profession {
-      font-size: 15px;
+    .team-role {
+      font-size: 16px;
       font-weight: 500;
-      color: #777;
+      color: #555;
     }
 
-    .card .name-profession .profession b {
+    .team-role b {
       color: #333;
+    }
+
+    .team-education {
+      font-size: 16px;
+      font-weight: 500;
+      color: #555;
+    }
+
+    .team-education b {
+      color: #333;
+    }
+
+    .see-more {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .see-more button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .see-more button:hover {
+      background-color: #0056b3;
     }
   </style>
 
-  <div class="container">
-    <div class="flex-container">
-      <div class="card">
-        <div class="image">
+  <div class="team-container">
+    <!-- Founders Section -->
+    <div class="team-section">
+      <div class="team-card">
+        <div class="team-image">
           <img src="founder.jpg" alt="Founder">
         </div>
-        <div class="name-profession">
-          <span class="name">RAJ KAMAL</span><br>
-          <span class="profession"> ~ <b>FOUNDER</b></span>
+        <div class="team-info">
+          <span class="team-name">RAJ KAMAL</span><br>
+          <span class="team-role"> ~ <b>FOUNDER</b></span><br>
+          <span class="team-education"><b>IIT BHU</b></span>
         </div>
       </div>
 
-      <div class="card">
-        <div class="image">
+      <div class="team-card">
+        <div class="team-image">
           <img src="coFounder.jpg" alt="Co-Founder">
         </div>
-        <div class="name-profession">
-          <span class="name">GAURAV KUMAR</span><br>
-          <span class="profession"> ~ <b>CO-FOUNDER</b></span>
+        <div class="team-info">
+          <span class="team-name">GAURAV KUMAR</span><br>
+          <span class="team-role"> ~ <b>CO-FOUNDER</b></span><br>
+          <span class="team-education"><b>PARUL UNIVERSITY</b></span>
         </div>
       </div>
     </div>
 
-    <div class="flex-container">
-      <div class="card">
-        <div class="image">
-          <img src="shrijal.jpg" alt="Manager 1">
-        </div>
-        <div class="name-profession">
-          <span class="name">RAI SHRIJAL ANJINI</span><br>
-          <span class="profession"><b>MEETING AND TRAINING MANAGEMENT</b></span>
-        </div>
-      </div>
+    <!-- Team Members Section -->
+    <h3 style="text-align: center; color: #333; font-size: 24px; margin: 30px 0; font-weight: 700;">Meet Our Team</h3>
+    <div class="team-section" id="team-list">
+      <!-- Manager profiles will be shown here -->
+    </div>
 
-      <div class="card">
-        <div class="image">
-          <img src="akansha.jpg" alt="Manager 2">
-        </div>
-        <div class="name-profession">
-          <span class="name">AKANSHA CHANDRA</span><br>
-          <span class="profession"><b>MEETING AND TRAINING MANAGEMENT</b></span>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="image">
-          <img src="nilesh.png" alt="Manager 3">
-        </div>
-        <div class="name-profession">
-          <span class="name">NEELESH ATHIYA</span><br>
-          <span class="profession"><b>SOCIAL MEDIA MANAGEMENT</b></span>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="image">
-          <img src="prem.jpg" alt="Manager 4">
-        </div>
-        <div class="name-profession">
-          <span class="name">PREM SAGAR</span><br>
-          <span class="profession"><b>DATA MANAGEMENT</b></span>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="image">
-          <img src="raju.jpg" alt="Manager 5">
-        </div>
-        <div class="name-profession">
-          <span class="name">RAJU KUMAR</span><br>
-          <span class="profession"><b>DATA MANAGEMENT</b></span>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="image">
-          <img src="vikash.jpg" alt="Manager 6">
-        </div>
-        <div class="name-profession">
-          <span class="name">VIKASH MEENA</span><br>
-          <span class="profession"><b>CERTIFICATE MANAGEMENT</b></span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="image">
-          <img src="akshaykumar.jpg" alt="Manager 6">
-        </div>
-        <div class="name-profession">
-          <span class="name">AKSHAY KUMAR</span><br>
-          <span class="profession"><b>DATA ANALYST</b></span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="image">
-          <img src="angothuvent.jpeg" alt="Manager 6">
-        </div>
-        <div class="name-profession">
-          <span class="name">ANGOTHU VENKATACHALAPATHI</span><br>
-          <span class="profession"><b>MANAGER</b></span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="image">
-          <img src="gauravprsd.jpg" alt="Manager 6">
-        </div>
-        <div class="name-profession">
-          <span class="name">GAURAV PRASAD</span><br>
-          <span class="profession"><b>PROJECT MANAGEMENT</b></span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="image">
-          <img src="roshni.jpeg" alt="Manager 6">
-        </div>
-        <div class="name-profession">
-          <span class="name">ROSHNI SAKET</span><br>
-          <span class="profession"><b>MANAGER</b></span>
-        </div>
-      </div>
-
+    <div class="see-more" id="see-more-section">
+      <button onclick="toggleManagers()">See More</button>
     </div>
   </div>
+  <script>
+    const teamMembers = [
+      { name: "RAI SHRIJAL ANJINI", role: "MEETING AND TRAINING MANAGEMENT", education: "IIT BHU", img: "shrijal.jpg" },
+      { name: "AKANSHA CHANDRA", role: "MEETING AND TRAINING MANAGEMENT", education: "AMITY UNIVERSITY", img: "akansha.jpg" },
+      { name: "NEELESH ATHIYA", role: "SOCIAL MEDIA MANAGEMENT", education: "IIT BHU", img: "nilesh.png" },
+      { name: "PREM SAGAR", role: "DATA MANAGEMENT", education: "IIT BHU", img: "prem.jpg" },
+      { name: "RAJU KUMAR", role: "DATA MANAGEMENT", education: "IIT BHU", img: "raju.jpg" },
+      { name: "VIKASH MEENA", role: "CERTIFICATE MANAGEMENT", education: "IIT BHU", img: "vikash.jpg" },
+      { name: "AKSHAY KUMAR", role: "DATA ANALYST", education: "IIT BHU", img: "akshaykumar.jpg" },
+      { name: "ANGOTHU VENKATACHALAPATHI", role: "MANAGER", education: "IIT BHU", img: "angothuvent.jpeg" },
+      { name: "GAURAV PRASAD", role: "PROJECT MANAGEMENT", education: "IIT BHU", img: "gauravprsd.jpg" },
+      { name: "ROSHNI SAKET", role: "MANAGER", education: "APSU", img: "roshni.jpeg" }
+    ];
+
+    const teamSection = document.getElementById('team-list');
+    const seeMoreSection = document.getElementById('see-more-section');
+
+    const maxVisibleMembers = 5;
+    let displayedMembers = [];
+    let isExpanded = false;
+
+    // Function to shuffle an array
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    // Function to get a random subset of team members
+    function getRandomMembers(members, count) {
+      const shuffledMembers = shuffleArray([...members]);
+      return shuffledMembers.slice(0, count);
+    }
+
+    function displayTeamMembers() {
+      teamSection.innerHTML = '';
+      displayedMembers.forEach(member => {
+        const card = document.createElement('div');
+        card.className = 'team-card';
+
+        card.innerHTML = `
+          <div class="team-image">
+            <img src="${member.img}" alt="${member.name}">
+          </div>
+          <div class="team-info">
+            <span class="team-name">${member.name}</span><br>
+            <span class="team-role"><b>${member.role}</b></span><br>
+            <span class="team-education"><b>${member.education}</b></span>
+          </div>
+        `;
+
+        teamSection.appendChild(card);
+      });
+    }
+
+    function toggleManagers() {
+      if (isExpanded) {
+        displayedMembers = getRandomMembers(teamMembers, maxVisibleMembers);
+        seeMoreSection.querySelector('button').textContent = 'See More';
+      } else {
+        const remainingMembers = teamMembers.filter(member => !displayedMembers.includes(member));
+        displayedMembers = [...displayedMembers, ...getRandomMembers(remainingMembers, maxVisibleMembers)];
+        seeMoreSection.querySelector('button').textContent = 'See Less';
+      }
+      isExpanded = !isExpanded;
+      displayTeamMembers();
+    }
+
+    // Initial display with random members
+    displayedMembers = getRandomMembers(teamMembers, maxVisibleMembers);
+    displayTeamMembers();
+  </script>
+
+  <!-- PROFILE SECTION END -->
+
 
   <footer>
     <div class="social-media">
