@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description"
+        content="Place your order for social media promotion services with Promotionia. Elevate your social media presence and unlock growth with our tailored packages." />
+    <meta name="keywords"
+        content="Promotionia, social media promotion, order form, digital marketing, social media engagement, boost likes, comments, followers, online presence" />
+    <meta name="author" content="Promotionia" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Order Social Media Promotion Services with Promotionia" />
+    <meta property="og:description"
+        content="Promotionia offers social media engagement services. Place your order now and get real likes, comments, and followers." />
+    <meta property="og:image" content="https://promotionia.in/logo.png" />
+    <meta property="og:url" content="https://promotionia.in/order" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Order Social Media Promotion Services with Promotionia" />
+    <meta name="twitter:description"
+        content="Boost your social media presence with Promotionia. Order our digital marketing services to enhance your online engagement." />
+    <meta name="twitter:image" content="https://promotionia.in/logo.png" />
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator/qrcode.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo.png" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Order Social Media Promotion Services with Promotionia</title>
+    <style>
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4f4f4 0%, #e8e8e8 100%);
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+    font-size: 22px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    text-align: center;
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8f7cec;
+}
+
+.order-form-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    color: #222;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #222;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.platform-selection {
+    margin-bottom: 20px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-group input {
+    margin-right: 10px;
+}
+
+#payButton {
+    padding: 12px 20px;
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#payButton:hover {
+    background-color: #4c51bf;
+}
+
+.price-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.price-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    max-width: 260px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.price-card input[type="radio"] {
+    margin-right: 10px;
+}
+
+.price-card label {
+    display: block;
+}
+
+.price-card input[type="radio"]:checked + label {
+    background-color: #f0f8ff;
+    border: 1px solid #00f;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#totalPrice {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #8f7cec;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+.footer-text a {
+    color: #8f7cec;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+
+    .order-form-container {
+        padding: 30px;
+    }
+
+    #payButton {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo {
+        width: 120px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .order-form-container {
+        padding: 25px;
+    }
+
+    #payButton {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .order-form-container {
+        padding: 20px;
+    }
+
+    #payButton {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+
+    .order-form-container {
+        padding: 15px;
+    }
+
+    #payButton {
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+
+    .order-form-container {
+        padding: 10px;
+    }
+
+    #payButton {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="order.html">Order</a>
+                    </li>
+                    <!-- Add more nav items here -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <header>
+        <h1>Order Social Media Promotion Services</h1>
+    </header>
+    <div class="order-form-container">
+        <form id="adOrderForm" method="post"
+            action="https://api.telegram.org/bot6204724735:AAEFgjWXvxRvchtNACTD5vW4fSZDE6YkLhs/sendMessage"
+            enctype="multipart/form-data">
+            <label for="profileLink">Profile Link:</label>
+            <input type="text" id="profileLink" name="profileLink" placeholder="Enter your Profile Link" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" required>
+
+
+            <div class="platform-selection">
+                <label>Select Platform:</label>
+                <div class="radio-group">
+                    <input type="radio" id="instagram" name="platform" value="instagram">
+                    <label for="instagram">Instagram</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="facebook" name="platform" value="facebook" disabled>
+                    <label for="facebook">Facebook (Coming Soon)</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="twitter" name="platform" value="twitter" disabled>
+                    <label for="twitter">Twitter (Coming Soon)</label>
+                </div>
+            </div>
+
+            <div id="additionalOptions" class="price-list"></div>
+
+            <div id="totalPrice"></div>
+
+            <div class="qr-code-container">
+                <div id="qrcode"></div>
+
+                <a href="#" id="googlePay" class="circle-link">
+
+                    <svg height="45px" width="45px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2065.9 2064.8" xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #FFFFFF;
+                            }
+
+                            .st1 {
+                                fill: #6E7BF2;
+                            }
+
+                            .st2 {
+                                fill: #4285F4;
+                            }
+
+                            .st3 {
+                                fill: #34A853;
+                            }
+
+                            .st4 {
+                                fill: #FBBC05;
+                            }
+
+                            .st5 {
+                                fill: #EB4335;
+                            }
+                        </style>
+                        <circle class="st0" cx="1032.4" cy="1032.4" r="1032.4" />
+                        <path class="st1" d="M1032.4,2064.8c-191.9,0.3-380-53.1-543.1-154.2l691.6-1900c122.4,17.6,240.7,57.2,349,116.9
+c499.8,274.2,682.8,901.6,408.6,1401.5C1757.1,1859.8,1409.7,2065.2,1032.4,2064.8z" />
+                        <path class="st2" d="M682.2,1027.9c0.3-17.4-1.5-34.8-5.3-51.7H439.3v93.9h139.5c-5.3,33.3-24,62.9-51.7,82.1l-0.5,3.1l75.1,58.2
+l5.2,0.5C654.6,1169.9,682.2,1105,682.2,1027.9" />
+                        <path class="st3" d="M439.3,1275.3c68.3,0,125.7-22.5,167.6-61.3l-79.8-61.9c-25.9,17.4-56.6,26.2-87.7,25.3
+c-65.6-0.4-123.6-42.8-144-105.2l-3,0.3l-78.1,60.4l-1,2.8C256.1,1221.4,343.6,1275.4,439.3,1275.3" />
+                        <path class="st4" d="M295.3,1072.3c-5.5-16.1-8.4-33-8.4-50.1c0.1-17,2.9-33.9,8.2-50.1l-0.1-3.3l-79.1-61.4l-2.6,1.2
+c-36,71.5-36,155.7,0,227.2L295.3,1072.3" />
+                        <path class="st5" d="M439.3,867.1c36.3-0.6,71.3,12.9,97.8,37.7l71.4-69.7c-45.8-43-106.5-66.5-169.3-65.8
+c-95.7,0-183.2,53.9-226.1,139.5l81.8,63.5C315.5,909.9,373.6,867.5,439.3,867.1" />
+                        <path class="st0" d="M1080.5,1050.4v183.9h-58.8V780h155.9c37.5-0.8,73.9,13.3,101,39.3c53.1,48.9,56.5,131.7,7.5,184.8
+c-2.4,2.6-4.9,5.1-7.5,7.5c-27.2,25.8-63.5,39.7-101,38.7L1080.5,1050.4L1080.5,1050.4z M1080.5,835.9v158.6h98.5
+c21.8,0.7,42.9-7.8,58.1-23.5c30.7-29.5,31.6-78.2,2.1-108.9c-0.2-0.2-0.4-0.4-0.6-0.6c-0.5-0.5-1-1.1-1.5-1.5
+c-15.1-16-36.2-24.7-58.1-24.1L1080.5,835.9z M1456.1,913.3c43.5,0,77.8,11.5,102.9,34.6c25.1,23,37.7,54.6,37.7,94.8v191.6h-56.2
+v-43.2h-2.5c-24.3,35.5-56.7,53.3-97.2,53.3c-31.6,1-62.5-9.8-86.5-30.5c-22.5-18.8-35.3-46.8-34.8-76.1c-1-30,12.7-58.7,36.7-76.7
+c24.5-19,57.2-28.5,98.1-28.5c29.9-1.1,59.6,5.4,86.2,19v-13.4c0.1-20-8.8-39-24.3-51.6c-15.6-13.9-35.8-21.5-56.7-21.2
+c-31.4-0.7-60.9,14.9-77.9,41.2l-51.7-32.4C1358.1,933.6,1400.2,913.3,1456.1,913.3L1456.1,913.3z M1380,1139.1
+c-0.1,15.1,7.2,29.3,19.4,38.1c13,10.2,29.2,15.5,45.7,15.2c24.8,0,48.5-9.8,66.1-27.3c18.5-16.1,29.2-39.5,29.2-64.1
+c-18.4-14.5-43.9-21.8-76.7-21.8c-21.2-0.8-42.2,5.2-59.7,17.1C1389.3,1105.7,1380.3,1121.7,1380,1139.1L1380,1139.1z M1919.4,923.5
+l-196.2,447.8h-60.7l72.8-156.7l-129.1-291.2h63.9l93.3,223.3h1.3l90.7-223.3L1919.4,923.5z" />
+                    </svg>
+
+                </a>
+                <a href="#" id="phonePe" class="circle-link">
+
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88"
+                        width="45px" height="45px">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #5f259f;
+                                }
+
+                                .cls-2 {
+                                    fill: #fff;
+                                }
+                            </style>
+                        </defs>
+                        <title>phonepe</title>
+                        <path class="cls-1"
+                            d="M75.56,1.66a61.42,61.42,0,1,0,45.66,73.9A61.42,61.42,0,0,0,75.56,1.66Z" />
+                        <path class="cls-2"
+                            d="M89.32,45.41A4.54,4.54,0,0,0,84.86,41H76.62L57.75,19.33a7,7,0,0,0-7.21-2.06L44,19.33a1.52,1.52,0,0,0-.69,2.4L63.92,41.29H32.7A1.63,1.63,0,0,0,31,43v3.43a4.54,4.54,0,0,0,4.46,4.46h4.81V67.37c0,12.35,6.52,19.56,17.5,19.56a23.66,23.66,0,0,0,9.61-1.72v11a5.42,5.42,0,0,0,5.49,5.49h4.8a2.22,2.22,0,0,0,2.06-2.06V50.56H87.6a1.63,1.63,0,0,0,1.72-1.72V45.41Zm-22,29.51a16.38,16.38,0,0,1-6.87,1.37c-5.49,0-8.23-2.74-8.23-8.92V50.9h15.1v24Z" />
+                    </svg>
+
+                </a>
+                <a href="#" id="paytm" class="circle-link">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="45" height="45" viewBox="0 0 48 48">
+                        <path fill="#0d47a1"
+                            d="M5.446 18.01H.548c-.277 0-.502.167-.503.502L0 30.519c-.001.3.196.45.465.45.735 0 1.335 0 2.07 0C2.79 30.969 3 30.844 3 30.594 3 29.483 3 28.111 3 27l2.126.009c1.399-.092 2.335-.742 2.725-2.052.117-.393.14-.733.14-1.137l.11-2.862C7.999 18.946 6.949 18.181 5.446 18.01zM4.995 23.465C4.995 23.759 4.754 24 4.461 24H3v-3h1.461c.293 0 .534.24.534.535V23.465zM13.938 18h-3.423c-.26 0-.483.08-.483.351 0 .706 0 1.495 0 2.201C10.06 20.846 10.263 21 10.552 21h2.855c.594 0 .532.972 0 1H11.84C10.101 22 9 23.562 9 25.137c0 .42.005 1.406 0 1.863-.008.651-.014 1.311.112 1.899C9.336 29.939 10.235 31 11.597 31h4.228c.541 0 1.173-.474 1.173-1.101v-8.274C17.026 19.443 15.942 18.117 13.938 18zM14 27.55c0 .248-.202.45-.448.45h-1.105C12.201 28 12 27.798 12 27.55v-2.101C12 25.202 12.201 25 12.447 25h1.105C13.798 25 14 25.202 14 25.449V27.55zM18 18.594v5.608c.124 1.6 1.608 2.798 3.171 2.798h1.414c.597 0 .561.969 0 .969H19.49c-.339 0-.462.177-.462.476v2.152c0 .226.183.396.422.396h2.959c2.416 0 3.592-1.159 3.591-3.757v-8.84c0-.276-.175-.383-.342-.383h-2.302c-.224 0-.355.243-.355.422v5.218c0 .199-.111.316-.29.316H21.41c-.264 0-.409-.143-.409-.396v-5.058C21 18.218 20.88 18 20.552 18c-.778 0-1.442 0-2.22 0C18.067 18 18 18.263 18 18.594L18 18.594z">
+                        </path>
+                        <path fill="#00adee"
+                            d="M27.038 20.569v-2.138c0-.237.194-.431.43-.431H28c1.368-.285 1.851-.62 2.688-1.522.514-.557.966-.704 1.298-.113L32 18h1.569C33.807 18 34 18.194 34 18.431v2.138C34 20.805 33.806 21 33.569 21H32v9.569C32 30.807 31.806 31 31.57 31h-2.14C29.193 31 29 30.807 29 30.569V21h-1.531C27.234 21 27.038 20.806 27.038 20.569L27.038 20.569zM42.991 30.465c0 .294-.244.535-.539.535h-1.91c-.297 0-.54-.241-.54-.535v-6.623-1.871c0-1.284-2.002-1.284-2.002 0v8.494C38 30.759 37.758 31 37.461 31H35.54C35.243 31 35 30.759 35 30.465V18.537C35 18.241 35.243 18 35.54 18h1.976c.297 0 .539.241.539.537v.292c1.32-1.266 3.302-.973 4.416.228 2.097-2.405 5.69-.262 5.523 2.375 0 2.916-.026 6.093-.026 9.033 0 .294-.244.535-.538.535h-1.891C45.242 31 45 30.759 45 30.465c0-2.786 0-5.701 0-8.44 0-1.307-2-1.37-2 0v8.44H42.991z">
+                        </path>
+                    </svg>
+
+                </a>
+
+            </div>
+            <label for="utr">Enter UTR or Transaction ID:</label>
+            <input type="text" id="utr" name="utr" placeholder="Enter UTR or Transaction ID" required>
+
+            <button type="submit" id="payButton">Pay</button>
+        </form>
+        <div class="benefits"></div>
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li><strong>Real Engagement:</strong> Every single like, comment, and follower is real, ensuring genuine
+                growth.</li>
+            <li><strong>Comprehensive Support:</strong> We’ll enhance your presence by delivering likes, comments, and
+                follows across all your posts, reels, and stories.</li>
+            <li><strong>Tailored Solutions:</strong> Choose from our meticulously crafted packages designed to meet your
+                exact needs and goals.</li>
+            <li><strong>Unmatched Quality:</strong> Experience unparalleled quality in engagement with a focus on
+                authentic interactions.</li>
+            <li><strong>Exclusive Opportunity:</strong> Act now to secure your spot and dominate your social media
+                presence.</li>
+        </ul>
+    </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('adOrderForm').addEventListener('change', function (e) {
+                const additionalOptions = document.getElementById('additionalOptions');
+                const totalPriceElement = document.getElementById('totalPrice');
+                let totalPrice = 0;
+
+                if (e.target.name === 'platform') {
+                    switch (e.target.value) {
+                        case 'instagram':
+                            additionalOptions.innerHTML = `
+                        <h3>Pricing Options:</h3>
+                        <div class="price-list">
+                            <div class="price-card">
+                                <input type="radio" id="support100_1month" name="postPricing" value="499">
+                                <label for="support100_1month">100+ People Support - 1 Month: ₹499</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support100_2months" name="postPricing" value="949">
+                                <label for="support100_2months">100+ People Support - 2 Months: ₹949</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support100_3months" name="postPricing" value="1399">
+                                <label for="support100_3months">100+ People Support - 3 Months: ₹1399</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support200_1month" name="postPricing" value="799">
+                                <label for="support200_1month">200+ People Support - 1 Month: ₹799</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support200_2months" name="postPricing" value="1299">
+                                <label for="support200_2months">200+ People Support - 2 Months: ₹1299</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support200_3months" name="postPricing" value="1759">
+                                <label for="support200_3months">200+ People Support - 3 Months: ₹1759</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support300_1month" name="postPricing" value="1199">
+                                <label for="support300_1month">300+ People Support - 1 Month: ₹1199</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support300_2months" name="postPricing" value="2199">
+                                <label for="support300_2months">300+ People Support - 2 Months: ₹2199</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support300_3months" name="postPricing" value="3199">
+                                <label for="support300_3months">300+ People Support - 3 Months: ₹3199</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support450_1month" name="postPricing" value="1599">
+                                <label for="support450_1month">450+ People Support - 1 Month: ₹1599</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support450_2months" name="postPricing" value="3099">
+                                <label for="support450_2months">450+ People Support - 2 Months: ₹3099</label>
+                            </div>
+                            <div class="price-card">
+                                <input type="radio" id="support450_3months" name="postPricing" value="4699">
+                                <label for="support450_3months">450+ People Support - 3 Months: ₹4699</label>
+                            </div>
+                        </div>
+                    `;
+                            break;
+
+                        case 'facebook':
+                        case 'twitter':
+                            additionalOptions.innerHTML = `
+                        <h3>Pricing Information:</h3>
+                        <p>COMING SOON</p>
+                    `;
+                            break;
+
+                        default:
+                            additionalOptions.innerHTML = '';
+                            break;
+                    }
+                }
+
+
+                if (e.target.name === "postPricing") {
+                    totalPrice = +e.target.value; // Convert value to number and set as total price
+                }
+
+                // Display the total price on the pay button
+                const payButton = document.getElementById("payButton");
+                payButton.innerText = `Pay Rs. ${totalPrice}`;
+
+                // Generate the UPI URL and QR code
+                const upi_id = "rajkamal913@paytm"; // Specific UPI ID
+                const upi_url = `upi://pay?pa=${upi_id}&am=${totalPrice.toFixed(
+                    2
+                )}&pn=Promotionia_AdCampaign`; // Change 'AdCampaign' to your desired payment description
+
+                // Generate the QR code image
+                const qr = qrcode(0, "M");
+                qr.addData(upi_url);
+                qr.make();
+
+                // Display the QR code image in the div element
+                document.getElementById("qrcode").innerHTML = qr.createImgTag(7);
+
+                // Update the href attribute of each link with the dynamically calculated amount
+                const googlePayLink = document.getElementById("googlePay");
+                const phonePeLink = document.getElementById("phonePe");
+                const paytmLink = document.getElementById("paytm");
+
+                googlePayLink.href = `upi://pay?pa=${upi_id}&am=${totalPrice.toFixed(
+                    2
+                )}&pn=Promotionia_AdCampaign`;
+                phonePeLink.href = `upi://pay?pa=${upi_id}&am=${totalPrice.toFixed(
+                    2
+                )}&pn=Promotionia_AdCampaign`;
+                paytmLink.href = `upi://pay?pa=${upi_id}&am=${totalPrice.toFixed(
+                    2
+                )}&pn=Promotionia_AdCampaign`;
+
+            });
+
+            document.getElementById('adOrderForm').addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                const profileLink = document.getElementById('profileLink').value;
+                const username = document.getElementById('username').value;
+                const email = document.getElementById('email').value;
+                const phoneNumber = document.getElementById('phoneNumber').value;
+                const utr = document.getElementById('utr').value;
+                const selectedPlatform = document.querySelector('input[name="platform"]:checked').value;
+                const postPricing = document.querySelector('input[name="postPricing"]:checked')?.value || 'N/A';
+
+                const telegramMessage = `
+                    Profile Link: ${profileLink}
+                    Username: ${username}
+                    Email: ${email}
+                    Phone Number: ${phoneNumber}
+                    UTR or Transaction ID: ${utr}
+                    Platform: ${selectedPlatform}
+                    Price: ₹${postPricing}
+                `;
+
+                const telegramBotToken = '6204724735:AAEFgjWXvxRvchtNACTD5vW4fSZDE6YkLhs'; // Replace with your Telegram bot token
+                const telegramChatId = '2077656044'; // Replace with your chat ID
+                const telegramUrl = `https://api.telegram.org/bot${telegramBotToken}/sendMessage?chat_id=${telegramChatId}&text=${encodeURIComponent(telegramMessage)}`;
+
+                fetch(telegramUrl)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.ok) {
+                            alert('Order successfully placed!');
+                        } else {
+                            alert('Error placing the order. Please try again.');
+                        }
+                    })
+                    .catch(error => {
+                        alert('Error connecting to Telegram API. Please check your network.');
+                        console.error(error);
+                    });
+            });
+        });
+    </script>
+</body>
+
+</html>
