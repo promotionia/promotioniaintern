@@ -1,0 +1,54 @@
+@media screen and (max-width: 1000px) {
+    .navbar .image img {
+      width: 9rem;
+      height: 80px;
+    }
+    .navbar .search {
+      padding: 4px 10px 4px 5px;
+    }
+  
+    .navbar .search input {
+      font-size: 0.85rem;
+      padding: 2px 3px;
+      width: 170px;
+      margin: 5px;
+    }
+    .navbar ul {
+      gap: 0.65rem;
+    }
+    .navbar ul li a i {
+      font-size: 0.85rem;
+    }
+    .navbar ul li a {
+      font-size: 0.85rem;
+    }
+    .icons a i {
+      font-size: 2rem;
+    }
+  
+    .options .option p {
+      font-size: 0.65rem;
+    }
+  
+    .main-content .about .info p{
+          font-size:1.4rem;
+          line-height: 1.85rem;
+    }
+    .main-content .about .info .second{
+      font-size: 0.9rem;
+      color: rgb(49, 48, 48);
+      line-height: 1.25rem;
+    }
+    .main-content .about .info{
+      height: 60vh;
+    }
+   
+    /* images */
+
+  .main_display .display .social_media p{
+        font-size: 0.55rem;
+    }
+    .main_display .display{
+        height: 100vh;
+    }
+  } 
