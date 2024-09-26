@@ -49,6 +49,6 @@
         font-size: 0.55rem;
     }
     .main_display .display{
-        height: 100vh;
+        height: auto;
     }
   } 
