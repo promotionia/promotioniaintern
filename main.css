@@ -40,8 +40,9 @@ body, html {
 .icons {
   display: flex;
   justify-content: center;
-  gap: 2.4rem;
+  gap: 2rem;
   padding: 2rem;
+  width: 95%;
 }
 
 .icons i {
@@ -132,9 +133,10 @@ body, html {
   align-items: center;
   background-color: rgb(248, 239, 239);
   border-radius: 10px;
-  height: 70vh;
+  height: auto;
   box-shadow: 7px 7px 14px gray;
   width: 70vw;
+  padding-top: 10px;
   margin: 3rem 4rem;
   line-height: 1rem;
 }
