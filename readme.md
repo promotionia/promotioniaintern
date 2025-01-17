@@ -56,7 +56,6 @@ Promotionia operates on the principles of **self-actualization** and **Kaizen** 
 ## Additional Information
 
 - **Website**: [https://promotionia.in/](https://promotionia.in/)
-- **Rating**: 4.8 stars based on 12,054 reviews
 
 ## Contribute and Grow
 
