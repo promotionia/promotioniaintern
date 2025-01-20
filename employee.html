@@ -1,1 +1,205 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotionia - Employee</title>
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <!-- Canonical Link for SEO -->
+    <link rel="canonical" href="https://promotionia.in/index.html">
+
+    <!-- Internal Linking -->
+    <link rel="alternate" href="https://promotionia.in/order.html" title="Order Social Media Services with Promotionia">
+
+    <!-- Stylesheets and Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" 
+        integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1e1e2f;
+            color: #f4f4f4;
+            line-height: 1.6;
+            overflow-x: hidden;
+            font-size: 22px;
+            position: relative;
+        }
+
+
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #2a2a45 0%, #333358 100%);
+            color: #f4f4f4;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background: #1e1e2f;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        .employee-section {
+            margin: 40px auto;
+            max-width: 90%;
+            text-align: center;
+        }
+
+        .employee-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: linear-gradient(145deg, #252547, #1e1e2f);
+            border-radius: 8px;
+            padding: 20px;
+            color: #fff;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f39c12;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #d87d00;
+        }
+
+        @media screen and (max-width: 768px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="order.html">Premium</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://docs.google.com/forms/d/1PqV-PKyJb0Sgwdwz895jfsABBCsVGxrdRI9nIV7zKW0">Apply Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="employee.html">Employee</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main style="margin-top: 80px;">
+        <!-- Employee List Section -->
+        <section class="employee-section">
+            <h2>Meet Our Employees</h2>
+            <div class="employee-card" id="employeeList">
+                <!-- Employee cards will be populated here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+
+        // Shuffle employees and populate cards
+        const employees = [
+            { id: 1, name: "Raja kumar",  workLink: "https://docs.google.com/spreadsheets/d/1Tsa0nFOQeOzUNfg9IiMtEVRsGWRkAVOrq_m40_wck4I/edit?usp=sharing" },
+            { id: 2, name: "Akash kumar",  workLink: "https://docs.google.com/spreadsheets/d/1eGfrPs-jV35vDutK59VpM5KANlJJKlwxQ9tQchV1ySs/edit?usp=sharing" },
+            { id: 3, name: "Sunny Raj",  workLink: "https://docs.google.com/spreadsheets/d/1ekydq8CgcZmPjriurM-_UVZfWW15YkSwH7VfOvsDYvY/edit?usp=sharing" },
+            { id: 4, name: "Abhay Kumar",  workLink: "https://docs.google.com/spreadsheets/d/1XOVvzUJSpkdkgzMZvpnVe9iAd5sTvyDlcloky-OZlxQ/edit?usp=sharing" },
+            { id: 5, name: "Roshni Saket",  workLink: "https://docs.google.com/spreadsheets/d/1LV10I53h_4vMe7xIdUOprxOHtOzRyf8JoT3E6MF-pkI/edit?usp=sharing" },
+            { id: 6, name: "Dhiraj kumar",  workLink: "https://docs.google.com/spreadsheets/d/1m-g7vG80bjkFsHRkGcI3j97UgrlbGRmd_-2FTxtD6YU/edit?usp=sharing" },
+            { id: 7, name: "Sheshank Kumar",  workLink: "https://docs.google.com/spreadsheets/d/1JXSFddESeEBtuvQZ7k52v_Kgvycz70XNBCDrxJ3f9tQ/edit?usp=sharing" },
+            { id: 8, name: "Savita Yadav",  workLink: "https://docs.google.com/spreadsheets/d/1iDSaIXKEw1DWRCyezedK2LMmwG_Xnt-pWZtEW9e2OSs/edit?usp=sharing" },
+            { id: 9, name: "Raushan Kumar",  workLink: "https://docs.google.com/spreadsheets/d/11mnHoTMgnAC8ZGg2n5OucqhwcNLLm4UB6CPPmiDK1XY/edit?usp=sharing" },
+            { id: 10, name: "Anshu Kumar",  workLink: "https://docs.google.com/spreadsheets/d/1NXMTbR2ds59nsEGqojcXrV-Mo2bVEjDGlSeP9MwiJlE/edit?usp=sharing" },
+            { id: 11, name: "Pujan Kumar",  workLink: "https://docs.google.com/spreadsheets/d/1ufdNIsQ5z0qU53GJI8erKPkRECo4XVkLqHrNMXvKRBk/edit?usp=sharing" },
+            { id: 12, name: "Vikash kumar",  workLink: "https://docs.google.com/spreadsheets/d/1WFlQlcv8I0OgMdj1zohVLpHEQg60Y1me8qnG04Ed0Wg/edit?usp=sharing" },
+            { id: 13, name: "Raj kamal",  workLink: "https://docs.google.com/spreadsheets/d/19n419oHjL6C7E6MJF-2Hbd3aukGOClx7E_TrzV03vIE/edit?usp=sharing" },
+            { id: 14, name: "Ujjwal kumar",  workLink: "https://docs.google.com/spreadsheets/d/1JrhzOA0wPuWfnQt4-Q03YO6UNxuFIaBpEXhIuc_Mt4A/edit?usp=sharing" },
+            { id: 15, name: "Vishal kumar",  workLink: "https://docs.google.com/spreadsheets/d/1UZogZbLOjyqQFohH6tQB-ifflb5icN4Zn4jH_Br1xtg/edit?usp=sharing" },
+            { id: 16, name: "Gaurav kumar",  workLink: "https://docs.google.com/spreadsheets/d/1ju3qWTIV4SIcI7wTf5mTeCnwjttzLlZJUREKOND-S7k/edit?usp=sharing" },
+
+          
+        ];
+
+        const shuffledEmployees = employees.sort(() => Math.random() - 0.5);
+
+        const employeeList = document.getElementById('employeeList');
+        shuffledEmployees.forEach(emp => {
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            card.innerHTML = `
+                <p>ID: ${emp.id}</p>
+                <h3>${emp.name}</h3>
+                <a href="${emp.workLink}" class="download-btn">View Work</a>
+            `;
+
+            employeeList.appendChild(card);
+        });
+    </script>
+</body>
+
+</html>
