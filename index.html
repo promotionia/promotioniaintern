@@ -87,7 +87,7 @@
                     console.log('User is subscribed:', subscription);
 
                     // Send subscription to the backend
-                    await fetch('http://192.168.222.68:5000/subscribe', {
+                    await fetch('http://192.168.182.156:5000/subscribe', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(subscription),
